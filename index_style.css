@@ -1,0 +1,272 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   color: #fff;
+}
+
+.navigation-bar
+{
+   width: 100%;
+   height: 40px;
+   display: inline-block;
+   background-color: #2AA10F;
+   box-shadow: 0px 1px 5px #26580F;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-left: 5px;
+}
+
+.navigation-bar ul li
+{
+   display: inline-block;
+   width: 30%;
+   height: 40px;
+   line-height: 40px;
+}
+
+.navigation-bar a:hover
+{
+   border-bottom: 1px solid #fff;
+}
+
+.navigation-bar ul li:hover
+{
+   border: 1px solid #fff;
+}
+
+.home
+{
+   display: inline-block;
+   line-height: 40px;
+   width: 50%;
+}
+
+.hide-show-button
+{
+   display: inline-block;
+   width: 5%;
+}
+
+.hide-show-button button
+{
+   margin-left: 96%; 
+   height: 40px;
+   line-height: 40px;
+}
+
+.navs
+{
+   display: inline-block;
+   line-height: 40px;
+   height: 40px;
+   width: 49%;
+   text-align: center;
+}
+
+.services-heading h1
+{
+   color: #26580F;
+   text-align: center;
+   margin: 5px;
+   padding: 3px;
+   font-size: 70px;
+}
+
+.head-logo
+{
+   width: 80%;
+   display: inline-block;
+   text-align: center;
+   font-size: 80px;
+   color:#26580F;
+   border: 2px solid #26580F;
+   padding: 5px;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   box-shadow: 0 0 10px black;
+}
+
+
+
+.images
+{
+   border: 3px solid #26580F;
+   background-image: url("images/land.png");
+   width: 70%;
+   height: 200px;
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   box-shadow: 0px 0px 3px #2AA10F;
+   
+}
+.images p
+{
+   color:#26580F;
+   font-size: larger;
+   font-weight: bolder;
+   padding: 5px;
+}
+.images button
+{
+   height: 40px;
+   width: 150px;
+   margin: 10px;
+   padding: 7px;
+   box-shadow: 0px 3px 5px#26580F;
+   border: 1px solid #26580F;
+}
+.images a
+{
+   color:#26580F;
+   font-weight: bolder;
+}
+
+.main-content
+{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #2AA10F;
+   box-shadow: 0px 0px 10px black;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 15px;
+   border-radius: 20px;
+}
+
+.main-content button
+{
+   color:#2AA10F;
+   height: 30px;
+   width: 100px;
+   margin: 10px;
+   padding: 7px;
+   box-shadow: 0px 3px 5px#26580F;
+   border: 1px solid #26580F;
+}
+
+.main-content button:hover
+{
+   color:#2AA10F;
+   width: 105px;
+}
+.main-content a
+{
+   color:#2AA10F;
+}
+.main-content a:hover
+{
+   border-bottom: 1px solid #26580F;
+}
+.main-content p
+{
+   color:#fff;
+   font-size: larger;
+   padding: 5px
+}
+
+.sub-services
+{
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+   margin: 20px;
+   box-shadow: 0px 0px 3px black;
+}
+
+.service
+{
+   display: inline-block;
+   width: 29%;
+   margin: 2%;
+   padding: 10px;
+   background-color: #2AA10F;
+   box-shadow: 0px 0px 5px black;
+}
+.service p
+{
+   font-size: larger;
+   padding: 10px;
+   margin: 5px;
+}
+.service a
+{
+   color:#2AA10F;
+}
+.service button
+{
+   color:#2AA10F;
+   height: 30px;
+   width: 100px;
+   margin: 10px;
+   padding: 7px;
+   box-shadow: 0px 3px 5px#26580F;
+   border: 1px solid #26580F;
+}
+
+
+.footer-div
+{
+   width: 100%;
+   background-color: #26580F;
+   color: #fff;
+   text-align: center;
+   display: inline-block;
+   margin: 10px;
+   padding: 15px;
+}
+
+.footer-nav
+{
+   width: 100%;
+   margin: 15px;
+}
+.footer-nav ul li
+{
+   display: inline-block;
+   margin: 10px;
+}
+
+.logos
+{
+   display: inline-block;
+   height: 60px;
+   margin: 10px;
+   text-align: center;
+   width: 15%;
+}
+.logos:hover
+{
+   background-repeat: none;
+   background-size: cover;
+   box-shadow: 0px 0px 3px #fff;
+}
+.logos img
+{
+   margin: 2px;
+   height: 25px;
+   width: 23px;
+   border-radius: 50px;
+   box-shadow: 0px 0px 2px #2AA10F;
+}
+
+
+@media only screen and (max-width: 800px)
+{
+   .head-logo
+   {
+      border: 1px solid red;
+      font-size: 50px;
+   }
+   
+}
